@@ -1,0 +1,20 @@
+name: publish-github-apps-test
+
+on: 
+  repository_dispatch: 
+    types:
+      - publish-github-app
+
+jobs:
+  publish-github-app: 
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      actions: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+ 
+      
