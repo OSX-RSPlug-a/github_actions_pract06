@@ -1,7 +1,7 @@
 name: publish-github-apps-test
 
 on: 
-    workflow_dispatch: 
+  workflow_dispatch: 
     types:
       - publish-github-app
 
