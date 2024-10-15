@@ -1,9 +1,9 @@
 name: publish-github-apps-test
 
-on: 
-  workflow_dispatch: 
-    types:
-      - publish-github-app
+on: [push]
+#   workflow_dispatch: 
+#     types:
+#       - publish-github-app
 
 jobs:
   publish-github-app: 
