@@ -1,9 +1,9 @@
 name: publish-github-apps-test
 
-on: [push]
-#   workflow_dispatch: 
-#     types:
-#       - publish-github-app
+on:
+  workflow_dispatch: 
+    types:
+      - publish-github-app
 
 jobs:
   publish-github-app: 
@@ -17,3 +17,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
  
+    - name: Repository Dispatch
+      uses: OSX-RSPlug-a/repository-dispatch@v3
+      with:
+        token: ${{ secrets.TOK }}
+        repository: OSX-RSPlug-a/github_actions_pract06/
+        event-type: publish-github-app
