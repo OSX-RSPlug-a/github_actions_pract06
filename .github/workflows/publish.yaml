@@ -1,7 +1,7 @@
 name: publish-github-apps-test
 
 on:
-  repository-dispatch:
+  repository_dispatch::
     types:
       - publish-github-app
 
