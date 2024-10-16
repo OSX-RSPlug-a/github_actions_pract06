@@ -1,9 +1,9 @@
 name: publish-github-apps-test
 
-on:
-  repository_dispatch:
-    types:
-      - publish-github-app
+on: [push]
+#   repository_dispatch: 
+    # types:
+    #   - publish-github-app
 
 jobs:
   publish-github-app: 
