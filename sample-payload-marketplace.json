@@ -1,6 +1,6 @@
 {
     "event_type": "publish-github-app",
-    "client-payload":
+    "client_payload":
     {
         "name": "Test",
         "city": "SP",
