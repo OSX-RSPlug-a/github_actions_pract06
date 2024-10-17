@@ -1,0 +1,5 @@
+{
+    "name": "Test",
+    "city": "SP",
+    "script": "echo Hello World"
+}

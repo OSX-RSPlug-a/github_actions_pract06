@@ -1,9 +1,9 @@
 name: publish-github-apps-test
 
-on: [push]
-#   repository_dispatch: 
-    # types:
-    #   - publish-github-app
+on:
+  repository_dispatch: 
+    types:
+      - publish-github-app
 
 jobs:
   publish-github-app: 
@@ -16,10 +16,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-
-    - name: Set project version
-      id: set_version
-      uses: OSX-RSPlug-a/github_actions_pract06@v1
 
     - name: Repository Dispatch
       uses: OSX-RSPlug-a/github_actions_pract06@v1
