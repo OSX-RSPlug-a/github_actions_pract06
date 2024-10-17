@@ -1,4 +1,5 @@
 {
+    "event_type": "publish-github-app",
     "name": "Test",
     "city": "SP",
     "script": "echo Hello World"
