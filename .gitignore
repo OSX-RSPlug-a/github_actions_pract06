@@ -1,3 +1,5 @@
-.db*
-.pem*
-./app/meu_ambiente_virtual/*
+.db
+.pem
+*private-key.pem
+meu_ambiente_virtual/
+pkcs11.txt
