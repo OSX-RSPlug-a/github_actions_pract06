@@ -1,5 +1,5 @@
 .db
-.pem
+*.pem
 *private-key.pem
 meu_ambiente_virtual/
 pkcs11.txt
