@@ -2,7 +2,7 @@ import jwt
 import time
 
 # Substitua pelos seus valores
-app_id = '1028733'
+app_id = '<APPID>'
 private_key = """-----BEGIN RSA PRIVATE KEY-----
 
 -----END RSA PRIVATE KEY-----"""
